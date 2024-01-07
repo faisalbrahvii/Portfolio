@@ -1,0 +1,459 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+
+#home {
+    /* background-image: url(img/5843910.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    background-color: #000;
+}
+
+.nav-link {
+    font-family: 'Aoboshi One', serif;
+    margin: 2.1vh;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.navbar-brand {
+    font-family: 'Aoboshi One', serif;
+    font-size: 1.5rem;
+    color: #0ef;
+}
+
+.navbar-brand:active {
+    color: #0ef !important;
+}
+
+.navbar-brand:hover {
+    color: #0ef !important;
+}
+
+.nav-link:hover {
+    color: #0ef !important;
+}
+
+.nav-link:active {
+    color: #0ef !important;
+}
+
+.space {
+    height: 25vh;
+}
+
+#img1 {
+    box-shadow:
+        rgba(36, 14, 28, 0.05) -10px 10px;
+       
+}
+
+
+
+.space {
+    height: 35vh;
+}
+
+
+
+.lab {
+    color: #0ef;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.progress-bar {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.ski {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    /* letter-spacing: 0.5rem; */
+    font-weight: bold;
+
+}
+
+.skil-title h3 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+
+}
+
+.nav-item a {
+    color: white;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content {
+
+    justify-content: center;
+    align-items: center;
+}
+
+.home .h3 {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.home .h1 {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #0ef;
+    margin: -3px 0;
+}
+
+.home p {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home .font {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* .btn-abt {
+    padding: 12px 28px;
+    background-color: #0ef;
+    color: #081b29;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-abt:hover {
+    box-shadow: 0 0 5px cyan,
+        0 0 25px cyan, 0 0 50px cyan,
+        0 0 100px cyan;
+    background-color: #0ef;
+}
+ */
+/* .btn-me {
+    padding: 12px 28px;
+    border: 1px solid #0ef;
+    color: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 600;
+} */
+
+/* .btn-me:hover {
+    box-shadow: 0 0 5px cyan,
+        0 0 25px cyan, 0 0 50px cyan,
+        0 0 100px cyan;
+    background-color: #0ef;
+} */
+
+#text {
+    color: #0ef;
+}
+
+/* .img {
+    mix-blend-mode: color-dodge;
+    animation: move 2.5s linear infinite;
+} */
+
+@keyframes move {
+    0% {
+        margin-bottom: 20px;
+    }
+
+    50% {
+        margin-top: 30px;
+    }
+
+    100% {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+.space1 {
+    height: 5vh;
+}
+
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #0ef;
+    text-decoration: none;
+    margin: 30px 15px 18px 0;
+}
+
+.space2 {
+    height: 15vh;
+}
+
+#about {
+    min-height: 100vh;
+    background-color: rgb(34, 39, 49);
+
+}
+
+.abt-txt {
+    color: #0ef;
+    border-bottom: 3px solid #0ef;
+    width: 20vh;
+    font-family: 'Aoboshi One', serif;
+}
+
+/* .abt{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+} */
+.abt-img {
+    border: 1px solid #0ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 55vh;
+    background-color: #0ef;
+    /* height: 50vh; */
+}
+
+.abt-img img {
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+
+.abt-space {
+    height: 10vh;
+}
+
+.abt-space2 {
+    height: 12vh;
+}
+
+.abt p {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.space4 {
+    height: 10vh;
+}
+
+.bars {
+    border: 1px outset #000;
+    padding: 5vh 10vh;
+}
+
+.html {
+    animation: bars 0.5s;
+}
+
+.mh-skills .mh-professtional-skill {
+    padding-right: 60px;
+    color: white;
+}
+
+.mh-skills .mh-professtional-skill h3 {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 60px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.mh-professtional-skills {
+    padding-left: 20%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.mh-professtional-skills h3 {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 60px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.mh-professtional-progress li {
+    display: inline-block;
+    margin: 0 auto;
+    float: none;
+    width: 48%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.mh-progress {
+    margin-bottom: 10px;
+    font: 900 1.14285/ Cinzerl, cursive;
+    color: white;
+}
+
+.mh-progress .progressbar-text {
+    color: inherit !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.progress.progress-line {
+    height: 10px;
+    margin-right: 60px;
+}
+
+.progress.progress-line .progress-text {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 60%;
+    transform: translateY(-35%);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.mh-progress.mh-progress-circle {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
+
+.mh-progress path:nth-child(1) {
+    stroke: #000;
+}
+
+.mh-progress path:nth-child(2) {
+    stroke: white;
+}
+
+.candidatos {
+    position: relative;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.candidatos .parcil {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.candidatos .parcil .info {
+    font-family: 'Poppins', sans-serif;
+
+    position: relative;
+}
+
+.candidatos .parcil .info .name {
+    font-family: 'Poppins', sans-serif;
+    top: 0;
+    left: 0;
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0.9;
+    position: absolute;
+}
+
+.candidatos .parcil .info .per-num {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.candidatos .parcil .progressBar {
+    position: relative;
+    width: 100%;
+    height: 7px;
+    margin: 30px 0 2px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+.candidatos .parcil .percentagem {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 7px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #0ef;
+    /* -webkit-transition: 2s all;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-name: animationProgress;
+    font-family: 'Poppins', sans-serif; */
+
+}
+
+.precentual {
+    animation-name: animationProgress;
+
+}
+
+@keyframes animationProgress {
+    from {
+        width: 0;
+    }
+}
+
+#col1 {
+    color: white;
+    /* border: 1px solid black; */
+    background-color: #262626;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-bottom: 10px;
+
+}
+
+.portfolio-wrap > figure {
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    cursor: pointer;
+    transition: transform 0.1s;
+  }
+  
+  .portfolio-wrap > figure :hover {
+    transform: scale(1.1);
+  }    
+  .original-color {
+    background-color: #f1f1f1; /* Original color */
+  }
+  
+  .new-color {
+    background-color: #333; /* New color */
+  }
+  
